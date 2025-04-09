@@ -1,0 +1,216 @@
+{
+  // VSCode Settings
+  "extensions.ignoreRecommendations": true,
+  "editor.fontLigatures": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true,
+  "editor.indentSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.showDeprecated": true,
+  "editor.autoIndent": "full",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.rulers": [
+    140
+  ],
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 145,
+  "editor.formatOnSave": true,
+  // Code & Formatter Settings
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.quickSuggestions": {
+      "other": true,
+      "strings": true
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  // Extensions Settings
+  "markdownlint.config": {
+    "default": true,
+    "MD001": false,
+    "MD010": false,
+    "MD024": false,
+    "MD025": false
+  },
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.general.statusBar": "top three",
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "FIXIT",
+    "FIX",
+    "BUG",
+    "HACK",
+    "UNDONE",
+  ],
+  "todo-tree.general.tagGroups": {
+    "FIXME": [
+      "FIXME",
+      "FIXIT",
+      "FIX",
+      "BUG",
+    ]
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "gutterIcon": true,
+      "icon": "tasklist",
+      "iconColour": "#FF9E29",
+      "type": "tag",
+      "background": "#CF7200",
+      "foreground": "#FFFFFF",
+      "fontWeight": "bold"
+    },
+    "FIXME": {
+      "gutterIcon": true,
+      "icon": "tools",
+      "iconColour": "#00BD00",
+      "type": "tag",
+      "background": "#008000",
+      "foreground": "#ffffff",
+      "fontWeight": "bold"
+    },
+    "UNDONE": {
+      "gutterIcon": true,
+      "icon": "history",
+      "iconColour": "#FFFF00",
+      "type": "tag",
+      "background": "#FFFF00",
+      "foreground": "#141D1E",
+      "fontWeight": "bold"
+    },
+    "HACK": {
+      "gutterIcon": true,
+      "icon": "code",
+      "iconColour": "#FF30C8",
+      "type": "tag",
+      "background": "#141D1E",
+      "foreground": "#fa64d2",
+      "fontWeight": "bold"
+    }
+  },
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "TODO",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "FIXME",
+      "color": "#008000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "FIXIT",
+      "color": "#008000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "FIX",
+      "color": "#008000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "BUG",
+      "color": "#008000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "UNDONE",
+      "color": "#FFFF00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "HACK",
+      "color": "#141D1E",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "gitlens.statusBar.enabled": true,
+  "gitlens.blame.avatars": true,
+  "gitlens.hovers.avatars": true,
+  "gitlens.hovers.avatarSize": 64,
+  "gitlens.hovers.changesDiff": "hunk",
+  "gitlens.currentLine.enabled": true,
+  "gitlens.currentLine.scrollable": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.enabled": true,
+  "gitlens.blame.compact": true,
+  "gitlens.heatmap.locations": [
+    "gutter",
+    "overview"
+  ],
+  "gitlens.graph.showRemoteNames": true
+}
